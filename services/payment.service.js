@@ -1,19 +1,19 @@
-const payments = require('../model/payments.json');
+const payments = require("../model/payments.json");
 
 function getPayments() {
-    return payments;
+  return payments;
 }
 
 function validate(data) {
-    console.log('Payment validation');
+  console.log("Payment validation");
 }
 
 function create() {
-    console.log('Payment creation');
+  console.log("Payment creation");
 }
 
 module.exports = {
-    getPayments,
-    validate,
-    create
-}
+  getPayments,
+  validate,
+  create,
+};
