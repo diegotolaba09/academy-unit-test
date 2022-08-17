@@ -1,0 +1,16 @@
+{
+  "name": "payment-tests",
+  "version": "1.0.0",
+  "description": "",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "scripts": {
+    "test": "jest --verbose",
+    "test-watch": "jest --watchAll",
+    "coverage": "jest --collect-coverage"
+  },
+  "devDependencies": {
+    "jest": "^28.1.3"
+  }
+}
